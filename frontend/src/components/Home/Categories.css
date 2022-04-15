@@ -1,0 +1,98 @@
+.category-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    display:inline-block;
+    margin:20px;
+    background-color: ghostwhite;
+}
+.rm-home__new .rm-category__home {
+    padding: 0 0 10px;
+}
+.rm-home__new .rm-category__home .container {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: inline-flex;
+}
+/* @media (min-width: 992px)
+.col-md-12 {
+    width: 100%;
+} */
+
+.rm-home__new .rm-category__home ul {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px 0 0;
+}
+/* @media (min-width: 992px) */
+.col-md-12 {
+    width: 100%;
+}
+
+.rm-home__new .rm-category__home ul li .rm-category__box {
+    background: #fff;
+    padding: 18px 28px;
+    border: 1px solid #e2eaf0;
+    border-radius: 10px;
+    box-shadow: 0 0 0;
+    transition: all .2s ease-in;
+    -moz-transition: .2s all ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+.rm-home__new .rm-category__home a {
+    color: #bfcfdc;
+}
+.application.theme--light a {
+    cursor: pointer;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.rm-home__new .rm-category__home ul li .rm-category__box {
+    padding: 10px 15px 16px;
+}
+/* @media screen and (max-width: 1600px) */
+.rm-home__new .rm-category__home ul li .rm-category__box .rento-sprite {
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+}
+.rento-sprite-new-packages {
+    background-position: 0 -806px;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+}
+/* .rento-sprite {
+    background: url(/public/images/home-sprite/icons__sprite-v2.svg);
+} */
+
+.rm-home__new .rm-category__home ul li .rm-category__box h3 {
+    font-size: 12px;
+    color: #313131;
+    margin: 0;
+    font-weight: 500;
+}
+
+.rm-category__box h3 {
+    white-space: nowrap;
+}
+.rm-home__new .rm-category__home ul li:first-child {
+    margin-left: 0;
+}
+.rm-home__new .rm-category__home ul li {
+    position: relative;
+    text-align: center;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    margin: 0 10px;
+}

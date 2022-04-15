@@ -1,0 +1,30 @@
+.order-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    display:block;
+    height:10rem;
+    background-color: ghostwhite;
+    
+}
+.order-image{
+    float:left;
+}
+.order-footer{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    display:block;
+    height: 2rem;
+    background-color: ghostwhite;
+}
+.order-total{
+    float:right;
+    
+}
+.order-prices{
+    float:right;
+    display: inline-grid;
+    text-align: right;
+
+}
